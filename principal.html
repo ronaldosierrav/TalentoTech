@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PRINCIPAL DESIRED PENSION</title>
+    <link rel="stylesheet" href="recursos/css/estiloprincipal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="recursos/css/pantalladecarga.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+    <div id="loader" class="loader-container">
+        <div class="container">
+            <div class="teabag">
+                <div class="string"></div>
+            </div>
+            <div class="teacup">
+                <div class="eye eye-l"></div>
+                <div class="eye eye-r"></div>
+                <div class="mouth"></div>
+                <div class="saucer"></div>
+            </div>
+        </div>
+        <div class="welcome-text">BIENVENIDO A DESIRED PENSION</div>
+    </div>
+
+<header class=" header">
+    <a href="#" class="logo"> <i class="fas fa-home"></i> DESIRED PENSION </a>
+    <nav class="navbar">
+        <a href="#" class="colordenav">Inicio</a>
+        <a href="pensiones.html" class="colordenav">Menu</a>
+        <a href="#" class="colordenav">About</a>
+    </nav>
+    <div class="icons">
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <a href="registro.html" class="menuulnav">Registrarse</a>
+        <a href="login.html" class="menuulnav">Login</a>
+    </div>
+</header>
+
+<section class=" section__container home" id="home">
+    <div class="header__image__container">
+        <div class="header__content">
+            <h1 class="header_h1">Encuentra Tu Pensión Ideal</h1>
+            <p class="header_p">Desired Pension, la mejor opción de muchas opciones.</p>
+        </div>
+        <div class="booking__container">
+            <form>
+                <div class="form__group">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>Ubicación</label>
+                    </div>
+                    <p>¿A dónde vas?</p>
+                </div>
+                <div class="form__group">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>Check In</label>
+                    </div>
+                    <p>Fecha de inicio</p>
+                </div>
+                <div class="form__group">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>Check Out</label>
+                    </div>
+                    <p>Fecha final</p>
+                </div>
+                <div class="form__group">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>Personas</label>
+                    </div>
+                    <p>Número de personas</p>
+                </div>
+            </form>
+            <button class="btn_r"><i class="ri-search-line"></i></button>
+        </div>
+    </div>
+</section>
+
+<section class=" section__container  about" id="about">
+    <div class="content">
+        <h1>Pensiones En 
+        <span class="line-break"></span>Oferta</h1>
+        <p>Aqui se mostraran varias ofertas en el proceso de subida de 
+        <span class="line-break"></span> pensiones por clientes</p>
+        <button class="btnInicio">INICIO
+        <i class="fas fa-arrow-right"></i>
+        </button>
+        <button class="more">VER MAS</button>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://cdnm.westwing.com/image/upload/v1/contenthub/app/uploads/es/2022/08/09150800/habitaciones-blancas.jpg"
+                />
+            </div>
+            <div class="slide">
+                <img src="https://i.pinimg.com/236x/cc/75/55/cc75552e9a6b9c2734491e2646c55aa9.jpg"
+                />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCQE9kA_I_uzRYSFcy_dbloTFC0F4iDsP-B7nI45UwA&s"
+               />
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<section class="section__container popular__container">
+    <h2 class="section__header">Pensiones Populares</h2>
+    <div class="popular__grid">
+      <div class="popular__card">
+        <img class="img_t" src="recursos/imagenes/Casa 5.png" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension Puerta Roja</h4>
+            <h4>$190.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img  class="img_t" src="recursos/imagenes/Casa1.jpg" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension Sevilla</h4>
+            <h4>$170.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img  class="img_t" src="recursos/imagenes/Casa4.png" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension Las Margaritas</h4>
+            <h4>$170.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img  class="img_t" src="recursos/imagenes/Casa3.jpg" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension El socorro</h4>
+            <h4>$190.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img class="img_t" src="recursos/imagenes/casa7.png" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension Mirador</h4>
+            <h4>$140.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img  class="img_t" src="recursos/imagenes/casa8.png" alt="popular hotel" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Pension Puerta Blanca</h4>
+            <h4>$160.000</h4>
+          </div>
+          <p>Sincelejo-Sucre</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="cuerpo">
+    <div class="comentarios-section">
+      <h2>COMENTARIOS</h2>
+      <p>En esta sección se pretende mostrar los comentarios de usuarios que han usado nuestro sitio web y dejan sus buenos comentarios sobre el servicio y estadía en cada pensión de su estancia.</p>
+      <div class="comentarios-container">
+        <div class="comentario-card">
+          <div class="front">
+            <img src="https://static.vecteezy.com/system/resources/previews/014/212/681/non_2x/female-user-profile-avatar-is-a-woman-a-character-for-a-screen-saver-with-emotions-for-website-and-mobile-app-design-illustration-on-a-white-isolated-background-vector.jpg" alt="Lia">
+            <h3>LIA</h3>
+            <div class="rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+            </div>
+            <p>Excelente servicio</p>
+          </div>
+          <div class="back">
+            <button>Mas información</button>
+          </div>
+        </div>
+        <div class="comentario-card">
+          <div class="front">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/968/573/non_2x/young-african-american-woman-with-black-curly-hair-in-the-yellow-t-shirt-on-green-circle-backdrop-black-strong-girl-front-view-illustration-vector.jpg" alt="Paula">
+            <h3>Paula</h3>
+            <div class="rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p>Excelente servicio recomendado, me fue muy bien en mi estancia en el lugar en el que me alojé.</p>
+          </div>
+          <div class="back">
+            <button>Mas información</button>
+          </div>
+        </div>
+        <div class="comentario-card">
+          <div class="front">
+            <img src="recursos/imagenes/icono3.png" alt="Thomas">
+            <h3>Vlacho</h3>
+            <div class="rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+            </div>
+            <p>Lo recomiendo la verdad creo que es un gran sitio web.</p>
+          </div>
+          <div class="back">
+            <button>Mas información</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section__container">
+    <div class="reward__container">
+      <p>100+ personas con nosotros</p>
+      <h4>Inscribite en este aventura y te aseguro que tendras experiencias de otro mundo</h4>
+      <button class="reward__btn">Inscribite Ya!</button>
+    </div>
+  </section>
+
+  <section class=" footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Informacion Extra</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> Soporte</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Comida</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Contacto</a>
+        </div>
+        <div class="box">
+            <h3>De tu Interes</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> Inicio</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> Mas Informacion</a>
+            <a href="#menu"> <i class="fas fa-arrow-right"></i> menu</a>
+            <a href="#order"> <i class="fas fa-arrow-right"></i> Ordena Ahora</a>
+        </div>
+        <div class="box">
+            <h3>Descubre</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Terminos y condiciones de privacidad</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> DESIRED®</a>
+        </div>
+        <div class="box">
+            <h3>Horarios</h3>
+            <p>Lunes : 7:00am a 10:00pm</p>
+            <p>Martes : 7:00am a 10:00pm</p>
+            <p>Miercoles : 7:00am a 10:00pm</p>
+            <p>Jueves : 7:00am a 10:00pm</p>
+            <p>Viernes 7:00am a 10:00pm</p>
+            <p>Sabado y domingo cerrados</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+        <div class="credit"> Creado <span>DESIRED PENSION</span> | DESIRED/SINCELEJO! </div>
+    </div>
+
+
+<script src="recursos/js/carousel.js"></script>
+<script src="recursos/js/Slide.js"></script>
+<script>
+    window.onload = function() {
+        let loader = document.getElementById("loader");
+        setTimeout(function() {
+            loader.style.display = "none";
+        }, 5000); // Oculta el loader después de 5 segundos
+
+        autoSlide(); // Inicia la animación automática del slider
+    }
+</script>
+
+</body>
+</html>
